@@ -1,0 +1,74 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "Learn React",
+      "isCompleted": false
+    },
+    {
+      "id": "bae7",
+      "name": "Islom",
+      "email": "ipardaboyev574@gmail.com"
+    },
+    {
+      "id": "7b86",
+      "name": "azamatjon",
+      "email": "azamat@gmail"
+    },
+    {
+      "id": "95f8",
+      "name": "azamatjon",
+      "email": "azamat@gmail"
+    },
+    {
+      "id": "1bb3",
+      "name": "bxfgbsdf",
+      "email": ""
+    },
+    {
+      "id": "f3b7",
+      "name": "bxfgbsdf",
+      "email": ""
+    },
+    {
+      "id": "5685",
+      "name": "bxfgbsdf",
+      "email": ""
+    },
+    {
+      "id": "c2ce",
+      "name": "bxfgbsdf",
+      "email": ""
+    },
+    {
+      "id": "adf4",
+      "name": "bxfgbsdf",
+      "email": ""
+    },
+    {
+      "id": "2e85",
+      "name": "bxfgbsdf",
+      "email": ""
+    },
+    {
+      "id": "df67",
+      "name": "bxfgbsdf",
+      "email": ""
+    },
+    {
+      "id": "5baf",
+      "name": "bxfgbsdf",
+      "email": ""
+    },
+    {
+      "id": "058b",
+      "name": "bxfgbsdf",
+      "email": ""
+    },
+    {
+      "id": "a67e",
+      "name": "bxfgbsdf",
+      "email": ""
+    }
+  ]
+}
