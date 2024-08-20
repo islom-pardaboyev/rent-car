@@ -1,74 +1,52 @@
 {
-  "todos": [
+  "cars": [
     {
-      "id": "1",
-      "text": "Learn React",
-      "isCompleted": false
+      "id": "7",
+      "carViewers": 2.436,
+      "imgSrc": "blob:http://localhost:5173/f6f5a95b-21bb-4da1-ac09-b58fde3e791b",
+      "carName": "Jaguar XE L P250",
+      "price": "1,800",
+      "carRating": "4.8",
+      "countDoor": "4",
+      "conditsionerType": "Air Conditioning",
+      "chooseGearBox": "Automatic",
+      "countPassengers": "4"
     },
     {
-      "id": "bae7",
-      "name": "Islom",
-      "email": "ipardaboyev574@gmail.com"
+      "id": "9",
+      "carViewers": 2.436,
+      "imgSrc": "blob:http://localhost:5173/5f253b46-7439-4861-913e-fb9fb022cdf6",
+      "carName": "Audi R8",
+      "price": "2,100",
+      "carRating": "4.6",
+      "countDoor": "2",
+      "conditsionerType": "Air Conditioning",
+      "chooseGearBox": "Automatic",
+      "countPassengers": "2"
     },
     {
-      "id": "7b86",
-      "name": "azamatjon",
-      "email": "azamat@gmail"
+      "id": "6",
+      "carViewers": 2.436,
+      "imgSrc": "blob:http://localhost:5173/8622283f-38e4-498a-ae26-85ad02823a24",
+      "carName": "BMW M3",
+      "price": "1,600",
+      "carRating": "4.5",
+      "countDoor": "4",
+      "conditsionerType": "Air Conditioning",
+      "chooseGearBox": "Automatic",
+      "countPassengers": "4"
     },
     {
-      "id": "95f8",
-      "name": "azamatjon",
-      "email": "azamat@gmail"
-    },
-    {
-      "id": "1bb3",
-      "name": "bxfgbsdf",
-      "email": ""
-    },
-    {
-      "id": "f3b7",
-      "name": "bxfgbsdf",
-      "email": ""
-    },
-    {
-      "id": "5685",
-      "name": "bxfgbsdf",
-      "email": ""
-    },
-    {
-      "id": "c2ce",
-      "name": "bxfgbsdf",
-      "email": ""
-    },
-    {
-      "id": "adf4",
-      "name": "bxfgbsdf",
-      "email": ""
-    },
-    {
-      "id": "2e85",
-      "name": "bxfgbsdf",
-      "email": ""
-    },
-    {
-      "id": "df67",
-      "name": "bxfgbsdf",
-      "email": ""
-    },
-    {
-      "id": "5baf",
-      "name": "bxfgbsdf",
-      "email": ""
-    },
-    {
-      "id": "058b",
-      "name": "bxfgbsdf",
-      "email": ""
-    },
-    {
-      "id": "a67e",
-      "name": "bxfgbsdf",
-      "email": ""
+      "id": 8,
+      "carViewers": 2.436,
+      "imgSrc": "blob:http://localhost:5173/8f89068e-b905-482a-9a72-8267d23011c2",
+      "carName": "Audi R8",
+      "price": "1.900",
+      "carRating": "4.8",
+      "countDoor": "4",
+      "conditsionerType": "Dual-Zone Climate Control",
+      "chooseGearBox": "Automatic",
+      "countPassengers": "4"
     }
   ]
 }
