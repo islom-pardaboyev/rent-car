@@ -1,3 +1,16 @@
 {
-  "cars": []
+  "cars": [
+    {
+      "id": 0,
+      "carViewers": 2.436,
+      "imgSrc": "blob:http://localhost:5173/d99e12ac-792e-4ebf-b2cb-f2d176b6b27a",
+      "carName": "Audi R8",
+      "price": "1,800",
+      "carRating": "3.4",
+      "countDoor": "4",
+      "conditsionerType": "Dual-Zone Climate Control",
+      "chooseGearBox": "Automatic",
+      "countPassengers": "2"
+    }
+  ]
 }

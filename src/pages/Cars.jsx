@@ -18,9 +18,8 @@ function Cars() {
       .get("http://localhost:3000/cars")
       .then((res) => setCars(res.data))
       .catch((error) => console.error("Error fetching cars:", error));
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
+
+    setLoading(false);
   }, []);
 
   const handleShowMoreCars = () => {
