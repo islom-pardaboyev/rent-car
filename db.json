@@ -1,50 +1,26 @@
 {
   "cars": [
     {
-      "id": "7",
+      "id": 9,
       "carViewers": 2.436,
-      "imgSrc": "blob:http://localhost:5173/f6f5a95b-21bb-4da1-ac09-b58fde3e791b",
-      "carName": "Jaguar XE L P250",
-      "price": "1,800",
-      "carRating": "4.8",
-      "countDoor": "4",
-      "conditsionerType": "Air Conditioning",
-      "chooseGearBox": "Automatic",
-      "countPassengers": "4"
-    },
-    {
-      "id": "9",
-      "carViewers": 2.436,
-      "imgSrc": "blob:http://localhost:5173/5f253b46-7439-4861-913e-fb9fb022cdf6",
+      "imgSrc": "blob:http://localhost:5173/dfc1c63a-1904-4d1d-83fe-852a14f1e064",
       "carName": "Audi R8",
-      "price": "2,100",
+      "price": "180,234",
       "carRating": "4.6",
       "countDoor": "2",
       "conditsionerType": "Air Conditioning",
       "chooseGearBox": "Automatic",
-      "countPassengers": "2"
-    },
-    {
-      "id": "6",
-      "carViewers": 2.436,
-      "imgSrc": "blob:http://localhost:5173/8622283f-38e4-498a-ae26-85ad02823a24",
-      "carName": "BMW M3",
-      "price": "1,600",
-      "carRating": "4.5",
-      "countDoor": "4",
-      "conditsionerType": "Air Conditioning",
-      "chooseGearBox": "Automatic",
       "countPassengers": "4"
     },
     {
-      "id": 8,
+      "id": 6,
       "carViewers": 2.436,
-      "imgSrc": "blob:http://localhost:5173/8f89068e-b905-482a-9a72-8267d23011c2",
-      "carName": "Audi R8",
-      "price": "1.900",
-      "carRating": "4.8",
+      "imgSrc": "blob:http://localhost:5173/35dd27af-2127-4afd-99dd-916382f78e1c",
+      "carName": "BMW M3",
+      "price": "180,234",
+      "carRating": "4.6",
       "countDoor": "4",
-      "conditsionerType": "Dual-Zone Climate Control",
+      "conditsionerType": "Air Conditioning",
       "chooseGearBox": "Automatic",
       "countPassengers": "4"
     }

@@ -5,13 +5,15 @@ import { Link } from "react-router-dom";
 import { CarDoor, PassagersIcon } from "../assets/Icons";
 import { TbManualGearboxFilled } from "react-icons/tb";
 import { IoIosSnow } from "react-icons/io";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 function Cars() {
   const [cars, setCars] = useState([]);
   const [showMaxCarCount, setShowMaxCarCount] = useState(4);
 
   useEffect(() => {
-    axios.get("http://localhost:3000/cars")
+    axios
+      .get("http://localhost:3000/cars")
       .then((res) => setCars(res.data))
       .catch((error) => console.error("Error fetching cars:", error));
   }, []);
@@ -29,7 +31,7 @@ function Cars() {
       <section className="container flex flex-col items-center justify-center pt-[84px]">
         <Link
           to={"/add-car"}
-          className="text-primary-5 bg-primary-5/10 font-medium py-4 px-8 rounded-lg text-base leading-[21px]"
+          className="text-primary-5 hover:bg-primary-5 hover:text-white duration-300 bg-primary-5/10 font-medium py-4 px-8 rounded-lg text-base leading-[21px]"
         >
           Add Car
         </Link>
@@ -106,6 +108,9 @@ function Cars() {
                           </span>
                         </p>
                       </div>
+                      <button className="flex items-center justify-center rounded-lg gap-2 mt-6 text-white bg-primary-5 py-[10px] w-full">
+                        Rent Now <FaArrowRightLong />
+                      </button>
                     </div>
                   </div>
                 ))}
@@ -113,9 +118,12 @@ function Cars() {
               {cars.length > 4 ? (
                 <button
                   onClick={handleShowMoreCars}
-                  className="px-4 py-2 mt-6 text-white rounded-lg bg-primary-5"
+                  className="w-full mt-[64px] mb-[83px]"
                 >
-                  {showMaxCarCount === 4 ? "Show All Cars" : "Show Less Cars"}
+                  <p className="mx-auto !w-fit flex items-center gap-[8px] py-[19px] px-[34px] border border-[#E0E0E0] rounded-lg">
+                    {showMaxCarCount === 4 ? "Show All Cars" : "Show Less Cars"}
+                    <FaArrowRightLong />
+                  </p>
                 </button>
               ) : (
                 ""
